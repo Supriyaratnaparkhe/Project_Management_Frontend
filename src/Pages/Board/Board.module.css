@@ -1,0 +1,219 @@
+.board {
+  display: flex;
+}
+.welcome {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+}
+#currDate {
+  padding-right: 20px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #707070;
+}
+.row {
+  display: flex;
+  width: 84vw;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+#pageName {
+  font-family: Poppins;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+}
+.customSelect {
+  padding-right: 20px;
+}
+.customSelect select {
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.taskContainer {
+  margin-top: 2px;
+  display: flex;
+  gap: 15px;
+  width: 84vw;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #d6eaf4;
+}
+::-webkit-scrollbar-thumb {
+  background: #8daab9;
+  border-radius: 10px;
+}
+.container2 {
+  overflow-y: auto;
+  height: 71vh;
+  display: flex;
+  flex-direction: column;
+}
+.phase {
+  padding: 0px 15px 0px 15px;
+  width: 270px;
+  border-radius: 10px;
+  background: #eef2f5;
+}
+.headbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.card {
+  width: 240px;
+  border-radius: 20px;
+  background: #ffffff;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+#title {
+  margin-top: 10px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+
+#priority {
+  margin-left: 5px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  color: #707070;
+}
+.dotbut {
+  background: none;
+  border: none;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: end;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+#checklist {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+}
+.checklist {
+  width: 230px;
+  padding: 5px;
+  border-radius: 12px;
+  border: 1px solid #e2e2e2;
+  margin-top: 10px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.checkbox {
+  accent-color: #17a2b8;
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+}
+.row3 {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+.chageButton button {
+  width: 53px;
+  height: 22px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  font-family: Poppins;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  color: #767575;
+  background: #eeecec;
+  cursor: pointer;
+}
+.dateButton {
+  width: 53px;
+  height: 22px;
+}
+.dateButton button {
+  width: 53px;
+  height: 22px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+  background: #dbdbdb;
+}
+.dueDatePassed button {
+  width: 53px;
+  height: 22px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  color: #fff;
+  background: #cf3636;
+}
+.doneButton button {
+  width: 53px;
+  height: 22px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  color: #fff;
+  background: #63c05b;
+}

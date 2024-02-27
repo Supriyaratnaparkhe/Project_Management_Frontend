@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+}
+.heading {
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.analyticsData {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 40px;
+  gap: 150px;
+}
+.taskTable {
+  background: #f9fcff;
+  padding: 30px;
+  border-spacing: 0px 10px;
+}
+.bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: #90c4cc;
+}
+.data {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  padding-left: 10px;
+}
+.value {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  padding-left: 100px;
+}
