@@ -30,7 +30,7 @@ const Login = () => {
       errors.password = "*Password is required";
     }
     setErrors(errors);
-    if (Object.keys(errors).length != 0) {
+    if (Object.keys(errors).length !== 0) {
       setLoading("Login");
     }
     return Object.keys(errors).length === 0;
