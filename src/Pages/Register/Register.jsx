@@ -46,7 +46,7 @@ const Register = () => {
     }
     setErrors(errors);
 
-    if (Object.keys(errors).length != 0) {
+    if (Object.keys(errors).length !== 0) {
       setLoading("Register");
     }
     return Object.keys(errors).length === 0;
