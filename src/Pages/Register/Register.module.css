@@ -124,10 +124,6 @@ input#name {
   background-image: url("../../assets/person_icon.png");
   background-repeat: no-repeat;
 }
-input#email {
-  background-image: url("../../assets/email_icon.png");
-  background-repeat: no-repeat;
-}
 input#pass {
   background-image: url("../../assets/lock.png");
   background-repeat: no-repeat;
