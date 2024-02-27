@@ -37,7 +37,7 @@ const PopUp = ({ taskId, onClose, onTaskUpdate }) => {
   }, [onClose]);
 
   const handleShareClick = (taskId) => {
-    const taskLink = `https://project-management-backend-apzo.onrender.com/publicTask/${taskId}`;
+    const taskLink = `https://project-management-app-supriya.netlify.app/publicTask/${taskId}`;
 
     navigator.clipboard.writeText(taskLink).then(
       () => {
