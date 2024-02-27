@@ -7,6 +7,7 @@ import styles from "./Login.module.css";
 import group from "../../assets/group.png";
 import view from "../../assets/view.png";
 import hide from "../../assets/hide.png";
+import email from "../../assets/email_icon.png";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -110,17 +111,24 @@ const Login = () => {
         <div className={styles.form}>
           <form onSubmit={handleLogin} className={styles.centeredForm}>
             <div className={styles.input}>
-              <input
-                type="email"
-                name="email"
-                value={UserState.email}
-                onChange={updateForm}
-                id={styles.email}
-                className={
-                  errors.email ? styles.inputErrorbox : styles.inputbox
-                }
-                placeholder={errors.email ? errors.email : "Email"}
-              />
+              <div style={{ position: "relative" }}>
+                <input
+                  type="email"
+                  name="email"
+                  value={UserState.email}
+                  onChange={updateForm}
+                  id={styles.email}
+                  className={
+                    errors.email ? styles.inputErrorbox : styles.inputbox
+                  }
+                  placeholder={errors.email ? errors.email : "Email"}
+                />
+                <img
+                  src={email}
+                  alt="email"
+                  style={{ position: "absolute", left: "1%", top: "10%" }}
+                />
+              </div>
             </div>
             <div className={styles.input}>
               <div style={{ position: "relative" }}>
