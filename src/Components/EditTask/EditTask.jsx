@@ -280,7 +280,9 @@ const EditTask = ({ taskId, handleClose, onTaskUpdate }) => {
           <div className={styles.buttonContainer}>
             <div>
               <DatePicker
-                toggleCalendarOnIconClick
+                showYearDropdown
+                popperClassName={styles.custom}
+                popperPlacement="right-start" 
                 selected={dueDate}
                 onChange={(dueDate) => setDueDate(dueDate)}
                 placeholderText="Select DueDate"
