@@ -121,6 +121,7 @@ const EditTask = ({ taskId, handleClose, onTaskUpdate }) => {
         console.log(response.data);
       }
     } catch (error) {
+      console.log(error);
       toast.error("Error updating task. Please try again later.", {
         position: "top-center",
         autoClose: 1000,
