@@ -92,7 +92,7 @@ const EditTask = ({ taskId, handleClose, onTaskUpdate }) => {
       const isValid = validate();
       if (isValid) {
         const response = await axios.put(
-          `http://localhost:3001/task/editTask/${userId}/${taskId}`,
+          `https://project-management-backend-apzo.onrender.com/task/editTask/${userId}/${taskId}`,
           {
             title,
             checklists,
