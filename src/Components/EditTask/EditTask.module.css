@@ -176,6 +176,9 @@ input::after {
   color: #707070;
   cursor: pointer;
 }
+.custom{
+  margin-top:-50px;
+}
 .cancel {
   width: 150px;
   height: 45px;
