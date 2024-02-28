@@ -267,7 +267,9 @@ const CreateTask = ({ onClose, onTaskCreated }) => {
           <div className={styles.buttonContainer}>
             <div>
               <DatePicker
-                toggleCalendarOnIconClick
+                showYearDropdown
+                popperClassName={styles.custom}
+                popperPlacement="right-start" 
                 selected={dueDate}
                 onChange={(dueDate) => setDueDate(dueDate)}
                 placeholderText="Select DueDate"
