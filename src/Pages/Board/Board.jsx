@@ -11,7 +11,7 @@ import Spinner from "../../Components/Spinner/Spinner";
 
 const Board = () => {
   const [tasks, setTasks] = useState([]);
-  const [selectedOption, setSelectedOption] = useState("this_weak");
+  const [selectedOption, setSelectedOption] = useState("this_week");
   const { userId } = useParams();
   const [loading, setLoading] = useState(true);
   const createrName = localStorage.getItem("createrName");
